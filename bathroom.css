@@ -1,0 +1,32 @@
+body {
+    background: #333;
+    color: #fff;
+    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+
+#canvas {
+    width: 985px;
+    height: 385px;
+    left: 1%;
+    top: 1%;
+    position: absolute;
+}
+#paper {
+    width: 985px;
+    height: 385px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.image-description {
+    display: none;
+    top: 390px;
+    overflow: auto;
+    position: absolute;
+}
+img.photo {
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    max-height: 600px;
+}
